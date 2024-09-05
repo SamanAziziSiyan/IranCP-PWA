@@ -16,7 +16,7 @@ const getToken = (): string | null => {
 };
 
 const axiosInstance: AxiosInstance = axios.create({
-    baseURL: 'https://stage-apiepayment.igame.market/api/v1',
+    baseURL: 'https://apiepayment.igame.market/api/v1',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json',
