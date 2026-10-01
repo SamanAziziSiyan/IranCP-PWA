@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IranCP PWA — Customer-Facing Web App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+A Next.js customer-facing PWA for IranCP, a marketplace for buying game CP.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technical Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Axios
+- Zustand
+- React Hook Form
+- Google OAuth
+- OTP input
+- Workbox / next-pwa
+- Jalali/Persian date tooling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Repository Relationship
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This repository contains the same project manifest and initial README state as `IGame-PWA`. The two repositories should not be presented as two separate portfolio projects. `IGame-PWA` is the preferred public portfolio reference.
 
-## Learn More
+## Verified Configuration
 
-To learn more about Next.js, take a look at the following resources:
+The repository uses the Next.js App Router, a Persian document layout, a web app manifest, and `@ducanh2912/next-pwa` for service-worker/PWA configuration and runtime caching.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scope
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The iGame system also involved WordPress and .NET backends. Those services are not contained in this repository, so this repository should be described as the frontend/PWA portion rather than the entire platform.
 
-## Deploy on Vercel
+## Project Status
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Historical source snapshot. Use `IGame-PWA` as the primary portfolio link to avoid duplicate presentation.
